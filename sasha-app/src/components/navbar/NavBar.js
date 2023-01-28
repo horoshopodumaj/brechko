@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -30,9 +31,12 @@ function NavBar(props) {
 
     const drawer = (
         <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-            <Typography variant="h6" sx={{ my: 2, textTransform: "uppercase" }}>
-                brechko
-            </Typography>
+            <Link to="/" style={{ textDecoration: "none", color: "black" }}>
+                <Typography variant="h6" sx={{ my: 2, textTransform: "uppercase" }}>
+                    brechko
+                </Typography>
+            </Link>
+
             <Divider />
             <List>
                 {navItems.map((item) => (
@@ -55,7 +59,7 @@ function NavBar(props) {
         <Box sx={{ display: "flex" }}>
             {/* <CssBaseline /> */}
             <AppBar component="nav" sx={{ bgcolor: "black" }}>
-                <Toolbar>
+                <Toolbar sx={{ justifyContent: "space-between" }}>
                     <IconButton
                         color="inherit"
                         aria-label="open drawer"
@@ -64,16 +68,20 @@ function NavBar(props) {
                         sx={{ mr: 2, display: { sm: "none" } }}>
                         <MenuIcon />
                     </IconButton>
-                    <Typography
-                        variant="h6"
-                        component="div"
-                        sx={{
-                            flexGrow: 1,
-                            display: { xs: "block", sm: "block" },
-                            textTransform: "uppercase",
-                        }}>
-                        brechko
-                    </Typography>
+                    <Link
+                        to="/"
+                        style={{ display: "block", textDecoration: "none", color: "white" }}>
+                        <Typography
+                            variant="h6"
+                            component="div"
+                            sx={{
+                                flexGrow: 1,
+                                display: { xs: "block", sm: "block" },
+                                textTransform: "uppercase",
+                            }}>
+                            brechko
+                        </Typography>
+                    </Link>
                     <Box sx={{ display: { xs: "none", sm: "block" } }}>
                         {navItems.map((item) => (
                             <Button key={item} sx={{ color: "#fff" }}>
@@ -91,7 +99,7 @@ function NavBar(props) {
                     open={mobileOpen}
                     onClose={handleDrawerToggle}
                     ModalProps={{
-                        keepMounted: true, // Better open performance on mobile.
+                        keepMounted: true,
                     }}
                     sx={{
                         display: { xs: "block", sm: "none" },
@@ -103,13 +111,5 @@ function NavBar(props) {
         </Box>
     );
 }
-
-// DrawerAppBar.propTypes = {
-//     /**
-//      * Injected by the documentation to work in an iframe.
-//      * You won't need it on your project.
-//      */
-//     window: PropTypes.func,
-// };
 
 export default NavBar;
