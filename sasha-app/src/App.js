@@ -5,6 +5,7 @@ import NavBar from "./components/navbar/NavBar";
 import { LOCALES } from "./i18n/locales";
 import { messages } from "./i18n/messages";
 import GlobalContext from "./contexts/GlobalContext";
+import Footer from "./components/footer/Footer";
 
 function App() {
     const [currentLocale, setCurrentLocale] = useState(
@@ -25,6 +26,8 @@ function App() {
                 defaultLocale={LOCALES.EN}>
                 <div className="App">
                     <NavBar />
+                    <div className="app__box"></div>
+                    <Footer />
                 </div>
             </IntlProvider>
         </GlobalContext.Provider>
