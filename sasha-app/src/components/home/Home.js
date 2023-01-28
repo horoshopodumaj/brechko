@@ -4,7 +4,7 @@ import mainFoto from "../../assets/img/main.jpg";
 
 export default function Home() {
     return (
-        <section className="home">
+        <section className="home" id="home">
             <div className="container">
                 <Box
                     sx={{

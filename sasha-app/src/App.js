@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./App.scss";
 import { IntlProvider } from "react-intl";
 import NavBar from "./components/navbar/NavBar";
 import { LOCALES } from "./i18n/locales";

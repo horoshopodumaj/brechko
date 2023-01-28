@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -40,14 +40,16 @@ function NavBar(props) {
             <Divider />
             <List>
                 {navItems.map((item) => (
-                    <ListItem key={item} disablePadding>
-                        <ListItemButton sx={{ textAlign: "center" }}>
-                            <ListItemText
-                                sx={{ textTransform: "uppercase" }}
-                                primary={<FormattedMessage id={`${item}`} />}
-                            />
-                        </ListItemButton>
-                    </ListItem>
+                    <a href={`#${item}`} style={{ color: "black" }}>
+                        <ListItem key={item} disablePadding>
+                            <ListItemButton sx={{ textAlign: "center" }}>
+                                <ListItemText
+                                    sx={{ textTransform: "uppercase" }}
+                                    primary={<FormattedMessage id={`${item}`} />}
+                                />
+                            </ListItemButton>
+                        </ListItem>
+                    </a>
                 ))}
             </List>
         </Box>
@@ -84,9 +86,11 @@ function NavBar(props) {
                     </Link>
                     <Box sx={{ display: { xs: "none", sm: "block" } }}>
                         {navItems.map((item) => (
-                            <Button key={item} sx={{ color: "#fff" }}>
-                                <FormattedMessage id={`${item}`} />
-                            </Button>
+                            <a href={`#${item}`}>
+                                <Button key={item} sx={{ color: "#fff" }}>
+                                    <FormattedMessage id={`${item}`} />
+                                </Button>
+                            </a>
                         ))}
                     </Box>
                     <LocalePicker />
