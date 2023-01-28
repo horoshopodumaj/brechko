@@ -13,3 +13,13 @@ code {
 .select-fieldset fieldset {
     border: none !important;
 }
+
+.home {
+    margin-top: 64px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    @media screen and (max-width: 599px) {
+        margin-top: 56px;
+    }
+}
