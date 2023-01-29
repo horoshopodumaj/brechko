@@ -58,3 +58,33 @@
 .alone {
     background: url("../src/assets/img/projects4.jpg") center center/cover no-repeat fixed;
 }
+
+.contact {
+    color: white;
+    background-color: black;
+}
+
+.email {
+    font-size: 1.8rem;
+    padding: 4rem 0;
+    position: relative;
+    & a {
+        position: relative;
+    }
+    & a::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 3px;
+        background-color: white;
+        transform: scaleX(0);
+        width: 100%;
+        top: 100%;
+        left: 0%;
+        transition: transform 250ms ease-in-out;
+        bottom: 0px;
+    }
+    & a:hover::after {
+        transform: scaleX(1);
+    }
+}

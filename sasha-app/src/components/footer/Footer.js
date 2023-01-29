@@ -35,7 +35,7 @@ export default function Footer() {
                                 padding: 0,
                                 paddingBottom: "15px",
                             }}>
-                            <Link to="/">
+                            <Link to="https://www.instagram.com/brecha_s" target="_blank">
                                 <ListItem sx={{ padding: 0, paddingRight: "10px" }}>
                                     <ListItemIcon
                                         sx={{
@@ -69,7 +69,7 @@ export default function Footer() {
                                     </ListItemIcon>
                                 </ListItem>
                             </Link>
-                            <Link to="/">
+                            <Link to="https://t.me/SashaBrecha" target="_blank">
                                 <ListItem sx={{ padding: 0 }}>
                                     <ListItemIcon
                                         sx={{

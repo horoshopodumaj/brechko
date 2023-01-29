@@ -76,6 +76,7 @@ export const messages = {
         concert organisation, shoot during the concert 
         
         (post-production in process). `,
+        getInTouch: `Let's get in touch`,
     },
     [LOCALES.RU]: {
         home: "главная",
@@ -163,5 +164,6 @@ export const messages = {
         husLight: `Свет: Sila Sveta `,
         husSummary: `Описание проекта:  
         Организация и съемка визуальной части концерта в совсместной работе с Силой Света. Видео проецировалось на экранах и было важной частью повествования. Организация и руководство съемкой в течение концерта.`,
+        getInTouch: `Свяжитесь со мной`,
     },
 };
