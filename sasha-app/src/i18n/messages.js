@@ -38,6 +38,16 @@ export const messages = {
         vyksaDirector: `Director: Alina Nasibullina`,
         vyksaProd: `Art-Director: Fyodor Pavlov-Andreevich `,
         vyksaSummary: `Summary: In 1990 Lyudmila Petrushevskaya wrote her verlibre novel in Dubtsy (16 km from Vyksa). The text is called "Karamzin. Village Diary". 31 years later, he comes to life with the voices and gestures of the children from «Pelican» -  social rehabilitation center for underage - and other Vyksa teenagers. Now this project is the star of the Vyksa Festival: a real theater in the village. "Karamzin" was made by Alina Nasibullina, a graduate of Brusnikin's Workshop, and Anya Grebennikova, a graduate of Dmitry Krymov's course. The playground and the main character is the recreation center of the village of Doschatoye, built in 1953. A neoclassical legend, a charismatic building in which fates changed and lives were saved. But the geography of "Karamzin" is much bigger. It will start already on the bus, and will end on the bank of the Oka.`,
+        aigelTitle: `Music video for Aigel band | «Piyala»`,
+        aigelTime: `2.54 minutes, 2022`,
+        aigelDirector: `Director: Alina Nasibullina`,
+        aigelDOP: `DOP: Vsevolod Ledovskiy`,
+        aigelStarring: `Starring: Alina Nasibullina, Petr Rykov`,
+        aigelSummary: `Summary: 
+
+        It is kind of teaser for future film by Alina. 
+        
+        The girl will unwittingly fall into a trap set by people who love her. Her family owns a sawmill in a small town and trades illegal logging, and the groom helps them to organize it. She can't figure out what's bad, what's good. Thoughts get confused in her head and it is very difficult to make out her own voice. She feels that she is making a mistake, disrupting the long-awaited wedding. She seems to be going crazy, trusting the voice, which manifests itself as strange coincidences and signs. There is nowhere to run, and the forest is the only place where she feels safe and truly free. She is moving away from an ideal, comfortable life to where a person lives according to different laws, where everything can be possible and death is not the end, but only the beginning of something bigger.`,
     },
     [LOCALES.RU]: {
         home: "главная",
@@ -72,5 +82,30 @@ export const messages = {
         vyksaDirector: `Режиссер: Алина Насибуллина`,
         vyksaProd: `Генеральный продюсер: Федор Павлов-Андреевич`,
         vyksaSummary: `Описание проекта: В 1990 году Людмила Петрушевская написала верлибром роман «Карамзин. Деревенский дневник» в деревне Дубцы (16 км от Выксы). Спустя 30 лет мы поставили спектакль, в котором принимали участие дети из реабилитационного центра «Пеликан», а так же директор и сотрудники ДК Досчатое (здание 1953 года постройки с тех пор не реставрировалось). Этот спектакль - путешествие в детство в деревне, дети из сложных семей ведут зрителя за руку, играют в догонялки и читают «Сказку про электричество» так, что у всех наблюдателей по телу бежит тот самый ток. Спектакль шел в рамках фестиваля и повторялся в 2022 году.`,
+        aigelTitle: `Клип для АИГЕЛ, "Пыяла"`,
+        aigelTime: `2.54 минуты, 2022`,
+        aigelDirector: `Режиссер: Алина Насибуллина`,
+        aigelDOP: `Оператор: Всеволод Ледовский`,
+        aigelStarring: `В ролях: Алина Насибуллина, Петр Рыков`,
+        aigelSummary: `Девушка невольно попадет в ловушку, ловко расставленную
+        любящими ее людьми. Ее семья владеет пилорамой в
+        небольшом городке и промышляет незаконными вырубками,
+        а жених помогает им их организовывать. Они от всего
+        сердца желают ей семейного счастья и не понимают, как
+        можно желать другого или не любить своего будущего мужа.
+        Она не может отличить одного от другого, разобраться что
+        плохо, что хорошо. В голове путаются мысли: свои и чужие; и
+        разобрать собственный голос очень сложно. Она чувствует,
+        что совершает ошибку, срывает долгожданную свадьбу,
+        своим неадекватным поведением ставит под угрозу бизнес
+        собственной семьи. Кажется, она сходит с ума, доверяясь
+        голосу, который проявляется как странные совпадения и
+        знаки. Она ищет спасения и пытается выйти из лабиринта, в
+        который непроизвольно угодила. Бежать некуда, и лес -
+        единственное место, где она чувствует себя в безопасности
+        и по-настоящему свободной. Она уходит от идеальной,
+        комфортной и понятной жизни туда, где человек живет по
+        иным законам, где все может быть возможным и смерть –
+        это не конец, а только начало чего-то большего`,
     },
 };
