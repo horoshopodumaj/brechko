@@ -102,3 +102,9 @@
         transform: scaleX(1);
     }
 }
+
+.btn {
+    &:hover p {
+        color: black;
+    }
+}

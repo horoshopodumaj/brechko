@@ -70,25 +70,26 @@ export default function Projects() {
                         <Typography sx={{ pb: "15px", textAlign: "justify" }}>
                             <FormattedMessage id="mirrorStarring" />
                         </Typography>
-                        <Link
-                            to="https://disk.yandex.ru/i/zta6nTaVY3v1pg"
-                            target="_blank"
-                            style={{
-                                color: "white",
-                                marginBottom: "15px",
-                                display: "inline-block",
+                        <Button
+                            variant="outlined"
+                            color="inherit"
+                            className="btn"
+                            sx={{
+                                "&:hover": { color: "black", background: "white" },
+                                width: { xs: "100%", sm: "auto" },
+                                marginBottom: "25px",
                             }}>
-                            <Button
-                                variant="outlined"
-                                color="inherit"
-                                sx={{
-                                    "&:hover": { color: "black", background: "white" },
+                            <Link
+                                to="https://disk.yandex.ru/i/zta6nTaVY3v1pg"
+                                target="_blank"
+                                style={{
+                                    color: "white",
                                 }}>
                                 <Typography>
                                     <FormattedMessage id="mirrorTrailer" />
                                 </Typography>
-                            </Button>
-                        </Link>
+                            </Link>
+                        </Button>
                     </Grid>
                     <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
                         <Box
@@ -238,25 +239,27 @@ export default function Projects() {
                             <Typography sx={{ pb: "25px", textAlign: "justify" }}>
                                 <FormattedMessage id="vyksaSummary" />
                             </Typography>
-                            <Link
-                                to="https://disk.yandex.ru/i/PGH6wXpXPHuwMQ"
-                                target="_blank"
-                                style={{
-                                    color: "white",
-                                    marginBottom: "15px",
-                                    display: "inline-block",
+
+                            <Button
+                                variant="outlined"
+                                color="inherit"
+                                className="btn"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                    width: { xs: "100%", sm: "auto" },
+                                    marginBottom: "25px",
                                 }}>
-                                <Button
-                                    variant="outlined"
-                                    color="inherit"
-                                    sx={{
-                                        "&:hover": { color: "black", background: "white" },
+                                <Link
+                                    to="https://disk.yandex.ru/i/PGH6wXpXPHuwMQ"
+                                    target="_blank"
+                                    style={{
+                                        color: "white",
                                     }}>
                                     <Typography>
                                         <FormattedMessage id="mirrorTrailer" />
                                     </Typography>
-                                </Button>
-                            </Link>
+                                </Link>
+                            </Button>
                         </Grid>
                         <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
                             <Box
@@ -329,25 +332,27 @@ export default function Projects() {
                             <Typography sx={{ pb: "25px", textAlign: "justify" }}>
                                 <FormattedMessage id="aigelSummary" />
                             </Typography>
-                            <Link
-                                to="https://www.youtube.com/watch?v=tE_7HeBZgYE"
-                                target="_blank"
-                                style={{
-                                    color: "white",
-                                    marginBottom: "15px",
-                                    display: "inline-block",
+
+                            <Button
+                                className="btn"
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                    width: { xs: "100%", sm: "auto" },
+                                    marginBottom: "25px",
                                 }}>
-                                <Button
-                                    variant="outlined"
-                                    color="inherit"
-                                    sx={{
-                                        "&:hover": { color: "black", background: "white" },
+                                <Link
+                                    to="https://www.youtube.com/watch?v=tE_7HeBZgYE"
+                                    target="_blank"
+                                    style={{
+                                        color: "white",
                                     }}>
                                     <Typography>
                                         <FormattedMessage id="mirrorTrailer" />
                                     </Typography>
-                                </Button>
-                            </Link>
+                                </Link>
+                            </Button>
                         </Grid>
                         <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
                             <Box
@@ -420,26 +425,27 @@ export default function Projects() {
                             <Typography sx={{ pb: "25px", textAlign: "justify" }}>
                                 <FormattedMessage id="vkHeroes" />
                             </Typography>
-                            <Link
-                                to="https://vk.com/video/playlist/-19542789_19?section=playlist_19"
-                                target="_blank"
-                                style={{
-                                    color: "white",
-                                    marginBottom: "15px",
-                                    display: "inline-block",
-                                    marginRight: "10px",
+
+                            <Button
+                                className="btn"
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                    width: { xs: "100%", sm: "auto" },
+                                    marginBottom: "25px",
                                 }}>
-                                <Button
-                                    variant="outlined"
-                                    color="inherit"
-                                    sx={{
-                                        "&:hover": { color: "black", background: "white" },
+                                <Link
+                                    to="https://vk.com/video/playlist/-19542789_19?section=playlist_19"
+                                    target="_blank"
+                                    style={{
+                                        color: "white",
                                     }}>
                                     <Typography>
                                         <FormattedMessage id="vkLink" />
                                     </Typography>
-                                </Button>
-                            </Link>
+                                </Link>
+                            </Button>
                         </Grid>
                         <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
                             <Box
@@ -515,66 +521,71 @@ export default function Projects() {
                             <Typography sx={{ pb: "25px", textAlign: "justify" }}>
                                 <FormattedMessage id="aloneSummary" />
                             </Typography>
-                            <Link
-                                to="https://vimeo.com/418091746"
-                                target="_blank"
-                                style={{
-                                    color: "white",
-                                    marginBottom: "15px",
-                                    display: "inline-block",
+                            <Button
+                                className="btn"
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                    width: { xs: "100%", sm: "auto" },
+                                    marginBottom: { xs: "15px", md: "25px" },
                                     marginRight: "10px",
                                 }}>
-                                <Button
-                                    variant="outlined"
-                                    color="inherit"
-                                    sx={{
-                                        "&:hover": { color: "black", background: "white" },
+                                <Link
+                                    to="https://vimeo.com/418091746"
+                                    target="_blank"
+                                    style={{
+                                        color: "white",
                                     }}>
                                     <Typography>
                                         <FormattedMessage id="alonePart1" />
                                     </Typography>
-                                </Button>
-                            </Link>
-                            <Link
-                                to="https://vimeo.com/418089194"
-                                target="_blank"
-                                style={{
-                                    color: "white",
-                                    marginBottom: "15px",
-                                    display: "inline-block",
+                                </Link>
+                            </Button>
+
+                            <Button
+                                className="btn"
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                    width: { xs: "100%", sm: "auto" },
+                                    marginBottom: { xs: "15px", md: "25px" },
                                     marginRight: "10px",
                                 }}>
-                                <Button
-                                    variant="outlined"
-                                    color="inherit"
-                                    sx={{
-                                        "&:hover": { color: "black", background: "white" },
+                                <Link
+                                    to="https://vimeo.com/418089194"
+                                    target="_blank"
+                                    style={{
+                                        color: "white",
                                     }}>
                                     <Typography>
                                         <FormattedMessage id="alonePart2" />
                                     </Typography>
-                                </Button>
-                            </Link>
-                            <Link
-                                to="https://vimeo.com/418088189?embedded=true&source=vimeo_logo&owner=94203207"
-                                target="_blank"
-                                style={{
-                                    color: "white",
-                                    marginBottom: "15px",
-                                    display: "inline-block",
+                                </Link>
+                            </Button>
+
+                            <Button
+                                className="btn"
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                    width: { xs: "100%", sm: "auto" },
+                                    marginBottom: { xs: "15px", md: "25px" },
                                     marginRight: "10px",
                                 }}>
-                                <Button
-                                    variant="outlined"
-                                    color="inherit"
-                                    sx={{
-                                        "&:hover": { color: "black", background: "white" },
+                                <Link
+                                    to="https://vimeo.com/418088189?embedded=true&source=vimeo_logo&owner=94203207"
+                                    target="_blank"
+                                    style={{
+                                        color: "white",
                                     }}>
                                     <Typography>
                                         <FormattedMessage id="alonePart3" />
                                     </Typography>
-                                </Button>
-                            </Link>
+                                </Link>
+                            </Button>
                         </Grid>
                         <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
                             <Box
@@ -642,26 +653,27 @@ export default function Projects() {
                             <Typography sx={{ pb: "25px", textAlign: "justify" }}>
                                 <FormattedMessage id="husSummary" />
                             </Typography>
-                            <Link
-                                to="https://vk.com/haski_moscow"
-                                target="_blank"
-                                style={{
-                                    color: "white",
-                                    marginBottom: "15px",
-                                    display: "inline-block",
-                                    marginRight: "10px",
+
+                            <Button
+                                className="btn"
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                    width: { xs: "100%", sm: "auto" },
+                                    marginBottom: "25px",
                                 }}>
-                                <Button
-                                    variant="outlined"
-                                    color="inherit"
-                                    sx={{
-                                        "&:hover": { color: "black", background: "white" },
+                                <Link
+                                    to="https://vk.com/haski_moscow"
+                                    target="_blank"
+                                    style={{
+                                        color: "white",
                                     }}>
                                     <Typography>
                                         <FormattedMessage id="vkLink" />
                                     </Typography>
-                                </Button>
-                            </Link>
+                                </Link>
+                            </Button>
                         </Grid>
                         <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
                             <Box
