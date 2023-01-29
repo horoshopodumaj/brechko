@@ -25,6 +25,9 @@ import vk1 from "../../assets/img/vk1.jpg";
 import vk2 from "../../assets/img/vk2.jpg";
 import vk3 from "../../assets/img/vk3.jpg";
 import vk4 from "../../assets/img/vk4.jpg";
+import hus1 from "../../assets/img/hus1.jpg";
+import hus2 from "../../assets/img/hus2.jpg";
+import hus3 from "../../assets/img/hus3.jpg";
 
 export default function Projects() {
     return (
@@ -595,6 +598,92 @@ export default function Projects() {
                                 }}>
                                 <img
                                     src={alone3}
+                                    alt="mirror3"
+                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
+                                />
+                            </Box>
+                        </Grid>
+                    </Grid>
+                </div>
+            </div>
+            <div className="">
+                <div className="container">
+                    <Grid
+                        container
+                        sx={{
+                            justifyContent: "center",
+                            alignItems: "center",
+                            paddingBottom: "50px",
+                        }}>
+                        <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
+                            <Typography variant="h5" sx={{ pb: "5px" }}>
+                                <FormattedMessage id="husTitle" />
+                            </Typography>
+                            <Typography sx={{ pb: "20px" }}>
+                                <FormattedMessage id="husTime" />
+                            </Typography>
+                            <Typography sx={{ pb: "5px" }}>
+                                <FormattedMessage id="husDirector" />
+                            </Typography>
+                            <Typography sx={{ pb: "25px" }}>
+                                <FormattedMessage id="husLight" />
+                            </Typography>
+                            <Typography sx={{ pb: "25px", textAlign: "justify" }}>
+                                <FormattedMessage id="husSummary" />
+                            </Typography>
+                            <Link
+                                to="https://vk.com/haski_moscow"
+                                target="_blank"
+                                style={{
+                                    color: "white",
+                                    marginBottom: "15px",
+                                    display: "inline-block",
+                                    marginRight: "10px",
+                                }}>
+                                <Button
+                                    variant="outlined"
+                                    color="inherit"
+                                    sx={{
+                                        "&:hover": { color: "black", background: "white" },
+                                    }}>
+                                    <Typography>
+                                        <FormattedMessage id="vkLink" />
+                                    </Typography>
+                                </Button>
+                            </Link>
+                        </Grid>
+                        <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
+                            <Box
+                                sx={{
+                                    pb: "20px",
+                                    display: "flex",
+                                    gap: { xs: "10px", sm: "20px" },
+                                    justifyContent: "center",
+                                    flexDirection: { xs: "column", sm: "row" },
+                                    alignItems: "center",
+                                }}>
+                                <img
+                                    src={hus1}
+                                    alt="mirror1"
+                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
+                                />
+                                <img
+                                    src={hus2}
+                                    alt="mirror2"
+                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
+                                />
+                            </Box>
+                            <Box
+                                sx={{
+                                    pb: "20px",
+                                    display: "flex",
+                                    gap: "20px",
+                                    justifyContent: "center",
+                                    flexDirection: { xs: "column", sm: "row" },
+                                    alignItems: "center",
+                                }}>
+                                <img
+                                    src={hus3}
                                     alt="mirror3"
                                     style={{ maxWidth: "230px", maxHeight: "330px" }}
                                 />

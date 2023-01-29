@@ -63,6 +63,19 @@ export const messages = {
         vkDOP: `DOP: Andrey Shvydkiy`,
         vkSummary: `Summary: A series of documentary videos telling about young, ambitious, talented entrepreneurs who are developing socially oriented business in Russia.`,
         vkHeroes: `Heroes: You talk, 99 Recycle. Zero Waste, Exoatlet, Baby Sensory, "String bag gives hope", "Simple things" and others.`,
+        husTitle: `Husky «Yadom lechu» Music concert in Adrenalin Stadium`,
+        husTime: `06.05.2021 `,
+        husDirector: `Art-Director: Rita Zubatova`,
+        husLight: `Light: Sila Sveta`,
+        husSummary: `About: Music concert and performance with light
+
+        and video projections on the screen in Adrenalin Stadium 
+               
+        Duties: Full video production for projections,
+        
+        concert organisation, shoot during the concert 
+        
+        (post-production in process). `,
     },
     [LOCALES.RU]: {
         home: "главная",
@@ -144,5 +157,11 @@ export const messages = {
         vkHeroes: `Герои: Youtalk, 99Recycle, ZeroWaste, Exoatlet,
         Baby Sensory, «Авоська дарит надежду»,
         «Простые вещи» и другие`,
+        husTitle: `Husky «Yadom lechu» концерт в Адреналин Стадиум`,
+        husTime: `05.06.2021 `,
+        husDirector: `Арт-директор: Рита Зубатова`,
+        husLight: `Свет: Sila Sveta `,
+        husSummary: `Описание проекта:  
+        Организация и съемка визуальной части концерта в совсместной работе с Силой Света. Видео проецировалось на экранах и было важной частью повествования. Организация и руководство съемкой в течение концерта.`,
     },
 };
