@@ -1,4 +1,4 @@
-import { Box, IconButton, List, ListItem, ListItemIcon, Typography } from "@mui/material";
+import { Box, List, ListItem, ListItemIcon, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";

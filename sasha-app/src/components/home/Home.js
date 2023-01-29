@@ -1,4 +1,4 @@
-import { Box, ImageList, Typography } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
 import mainFoto from "../../assets/img/main.jpg";
 
@@ -15,7 +15,11 @@ export default function Home() {
                         alignItems: "center",
                     }}>
                     <Box sx={{ maxWidth: 350, maxHeight: 350 }}>
-                        <img style={{ maxWidth: "100%", height: "auto" }} src={mainFoto} />
+                        <img
+                            style={{ maxWidth: "100%", height: "auto" }}
+                            alt="mainfoto"
+                            src={mainFoto}
+                        />
                     </Box>
 
                     <Box sx={{ color: "white" }}>

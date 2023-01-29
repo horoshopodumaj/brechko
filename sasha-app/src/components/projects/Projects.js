@@ -40,13 +40,18 @@ export default function Projects() {
                         textTransform: "uppercase",
                         paddingBottom: { xs: "35px", md: "50px" },
                         fontSize: { xs: "40px", md: "48px" },
+                        paddingTop: { xs: "70px", md: "80px" },
                     }}>
                     <FormattedMessage id="projects" />
                 </Typography>
                 <Grid
                     container
                     sx={{ justifyContent: "center", alignItems: "center", paddingBottom: "50px" }}>
-                    <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
+                    <Grid
+                        item
+                        xs={12}
+                        md={5}
+                        sx={{ paddingRight: { xs: "0", md: "15px" }, padding: "20px, 0" }}>
                         <Typography variant="h5" sx={{ pb: "5px" }}>
                             <FormattedMessage id="mirrorTitle" />
                         </Typography>
@@ -136,7 +141,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: "50px",
+                            paddingBottom: { xs: "90px", md: "200px", sm: "100px" },
+                            paddingTop: { xs: "90px", md: "250px", sm: "100px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -213,7 +219,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: "50px",
+                            paddingBottom: { xs: "90px", md: "150px", sm: "100px" },
+                            paddingTop: { xs: "90px", md: "150px", sm: "100px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -303,7 +310,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: "50px",
+                            paddingBottom: { xs: "90px", md: "200px", sm: "100px" },
+                            paddingTop: { xs: "90px", md: "250px", sm: "100px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -393,7 +401,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: "50px",
+                            paddingBottom: { xs: "90px", md: "250px", sm: "100px" },
+                            paddingTop: { xs: "90px", md: "270px", sm: "100px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -484,7 +493,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: "50px",
+                            paddingBottom: { xs: "90px", md: "270px", sm: "100px" },
+                            paddingTop: { xs: "90px", md: "290px", sm: "100px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -613,7 +623,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: "50px",
+                            paddingBottom: { xs: "90px", md: "270px", sm: "100px" },
+                            paddingTop: { xs: "90px", md: "290px", sm: "100px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>

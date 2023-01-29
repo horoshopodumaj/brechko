@@ -1,9 +1,7 @@
 import * as React from "react";
-import { Link, NavLink } from "react-router-dom";
-import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";

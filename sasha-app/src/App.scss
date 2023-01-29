@@ -26,11 +26,17 @@
 
 .home {
     margin-top: 64px;
-    padding-top: 250px;
-    padding-bottom: 200px;
+    padding-top: 300px;
+    padding-bottom: 250px;
     background-color: black;
+    @media screen and (max-width: 899px) {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
     @media screen and (max-width: 599px) {
         margin-top: 56px;
+        padding-top: 150px;
+        padding-bottom: 250px;
     }
 }
 
@@ -41,7 +47,15 @@
 
 .wpapper {
     background-color: rgba(0, 0, 0, 0.4);
-    padding: 100px 0 400px;
+    padding: 100px 0 450px;
+    @media screen and (max-width: 899px) {
+        padding-top: 100px;
+        padding-bottom: 250px;
+    }
+    @media screen and (max-width: 599px) {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
 }
 
 .projects {
