@@ -18,6 +18,9 @@ import aigel1 from "../../assets/img/aigel1.jpg";
 import aigel2 from "../../assets/img/aigel2.jpg";
 import aigel3 from "../../assets/img/aigel3.jpg";
 import aigel4 from "../../assets/img/aigel4.jpg";
+import alone1 from "../../assets/img/alone1.jpg";
+import alone2 from "../../assets/img/alone2.jpg";
+import alone3 from "../../assets/img/alone3.jpg";
 
 export default function Projects() {
     return (
@@ -348,6 +351,132 @@ export default function Projects() {
                                 alt="mirror4"
                                 style={{ maxWidth: "230px", maxHeight: "330px" }}
                             />
+                        </Box>
+                    </Grid>
+                </Grid>
+                <Grid
+                    container
+                    sx={{ justifyContent: "center", alignItems: "center", paddingBottom: "50px" }}>
+                    <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
+                        <Typography variant="h5" sx={{ pb: "5px" }}>
+                            <FormattedMessage id="aloneTitle" />
+                        </Typography>
+                        <Typography sx={{ pb: "20px" }}>
+                            <FormattedMessage id="aloneTime" />
+                        </Typography>
+                        <Typography sx={{ pb: "5px" }}>
+                            <FormattedMessage id="aloneDirector" />
+                        </Typography>
+                        <Typography sx={{ pb: "25px" }}>
+                            <FormattedMessage id="aloneDOP" />
+                        </Typography>
+                        <Typography sx={{ pb: "25px", textAlign: "justify" }}>
+                            <FormattedMessage id="aloneDress" />
+                        </Typography>
+                        <Typography sx={{ pb: "25px", textAlign: "justify" }}>
+                            <FormattedMessage id="aloneSummary" />
+                        </Typography>
+                        <Link
+                            to="https://vimeo.com/418091746"
+                            target="_blank"
+                            style={{
+                                color: "white",
+                                marginBottom: "15px",
+                                display: "inline-block",
+                                marginRight: "10px",
+                            }}>
+                            <Button
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                }}>
+                                <Typography>
+                                    <FormattedMessage id="alonePart1" />
+                                </Typography>
+                            </Button>
+                        </Link>
+                        <Link
+                            to="https://vimeo.com/418089194"
+                            target="_blank"
+                            style={{
+                                color: "white",
+                                marginBottom: "15px",
+                                display: "inline-block",
+                                marginRight: "10px",
+                            }}>
+                            <Button
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                }}>
+                                <Typography>
+                                    <FormattedMessage id="alonePart2" />
+                                </Typography>
+                            </Button>
+                        </Link>
+                        <Link
+                            to="https://vimeo.com/418088189?embedded=true&source=vimeo_logo&owner=94203207"
+                            target="_blank"
+                            style={{
+                                color: "white",
+                                marginBottom: "15px",
+                                display: "inline-block",
+                                marginRight: "10px",
+                            }}>
+                            <Button
+                                variant="outlined"
+                                color="inherit"
+                                sx={{
+                                    "&:hover": { color: "black", background: "white" },
+                                }}>
+                                <Typography>
+                                    <FormattedMessage id="alonePart3" />
+                                </Typography>
+                            </Button>
+                        </Link>
+                    </Grid>
+                    <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
+                        <Box
+                            sx={{
+                                pb: "20px",
+                                display: "flex",
+                                gap: { xs: "10px", sm: "20px" },
+                                justifyContent: "center",
+                                flexDirection: { xs: "column", sm: "row" },
+                                alignItems: "center",
+                            }}>
+                            <img
+                                src={alone1}
+                                alt="mirror1"
+                                style={{ maxWidth: "230px", maxHeight: "330px" }}
+                            />
+                            <img
+                                src={alone2}
+                                alt="mirror2"
+                                style={{ maxWidth: "230px", maxHeight: "330px" }}
+                            />
+                        </Box>
+                        <Box
+                            sx={{
+                                pb: "20px",
+                                display: "flex",
+                                gap: "20px",
+                                justifyContent: "center",
+                                flexDirection: { xs: "column", sm: "row" },
+                                alignItems: "center",
+                            }}>
+                            <img
+                                src={alone3}
+                                alt="mirror3"
+                                style={{ maxWidth: "230px", maxHeight: "330px" }}
+                            />
+                            {/* <img
+                                src={aigel4}
+                                alt="mirror4"
+                                style={{ maxWidth: "230px", maxHeight: "330px" }}
+                            /> */}
                         </Box>
                     </Grid>
                 </Grid>

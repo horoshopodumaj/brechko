@@ -48,6 +48,15 @@ export const messages = {
         It is kind of teaser for future film by Alina. 
         
         The girl will unwittingly fall into a trap set by people who love her. Her family owns a sawmill in a small town and trades illegal logging, and the groom helps them to organize it. She can't figure out what's bad, what's good. Thoughts get confused in her head and it is very difficult to make out her own voice. She feels that she is making a mistake, disrupting the long-awaited wedding. She seems to be going crazy, trusting the voice, which manifests itself as strange coincidences and signs. There is nowhere to run, and the forest is the only place where she feels safe and truly free. She is moving away from an ideal, comfortable life to where a person lives according to different laws, where everything can be possible and death is not the end, but only the beginning of something bigger.`,
+        aloneTitle: `Mood videos «When I’m alone»`,
+        aloneTime: `3 x up to 1 m, 2020`,
+        aloneDirector: `Directed by: Elena Golysheva`,
+        aloneDOP: `DOP: Nikita Gorodnichenko`,
+        aloneDress: `Dresses: Otocyon `,
+        aloneSummary: `Summary: Fashion vides3 in 3 parts: “Melancholy”, “Langour” and «Obsession».`,
+        alonePart1: "Part 1",
+        alonePart2: "Part 2",
+        alonePart3: "Part 3",
     },
     [LOCALES.RU]: {
         home: "главная",
@@ -107,5 +116,14 @@ export const messages = {
         комфортной и понятной жизни туда, где человек живет по
         иным законам, где все может быть возможным и смерть –
         это не конец, а только начало чего-то большего`,
+        aloneTitle: `Mood videos «When I’m alone» `,
+        aloneTime: `3 х 1 мин, 2020`,
+        aloneDirector: `Режиссер: Елена Голышева`,
+        aloneDOP: `Оператор: Никита Городниченко`,
+        aloneDress: `Платья: Otocyon`,
+        aloneSummary: `Описание проекта: Фэшн ролики в трех частях: “Melancholy”, “Langour” и «Obsession»`,
+        alonePart1: "Часть 1",
+        alonePart2: "Часть 2",
+        alonePart3: "Часть 3",
     },
 };
