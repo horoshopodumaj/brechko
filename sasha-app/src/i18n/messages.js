@@ -33,6 +33,11 @@ export const messages = {
         etnosDOP: `DOPs: Evgeniy Rodin, Vitaliy Zaytsev, Andrey Mayka, Leonid Kim, Xenia Selvian, Zarina Kodzaeva, etc.`,
         etnosSummary: `Summary: Six short films up to 26 minutes about different small nations who live on the Russian territory, such as: Seto, Moksha and Erzya, Besermyans, Buryats, Abazins and Russians. We produced six shooting expeditions with six different groups of directors and DOPs.`,
         etnosTrailer: `Films will be sent after request.`,
+        vyksaTitle: `Immersive theatre performance «Karamzin: Theatre in the Village»`,
+        vyksaTime: `Performance up to 60 minutes, 2021, Vyksa`,
+        vyksaDirector: `Director: Alina Nasibullina`,
+        vyksaProd: `Art-Director: Fyodor Pavlov-Andreevich `,
+        vyksaSummary: `Summary: In 1990 Lyudmila Petrushevskaya wrote her verlibre novel in Dubtsy (16 km from Vyksa). The text is called "Karamzin. Village Diary". 31 years later, he comes to life with the voices and gestures of the children from «Pelican» -  social rehabilitation center for underage - and other Vyksa teenagers. Now this project is the star of the Vyksa Festival: a real theater in the village. "Karamzin" was made by Alina Nasibullina, a graduate of Brusnikin's Workshop, and Anya Grebennikova, a graduate of Dmitry Krymov's course. The playground and the main character is the recreation center of the village of Doschatoye, built in 1953. A neoclassical legend, a charismatic building in which fates changed and lives were saved. But the geography of "Karamzin" is much bigger. It will start already on the bus, and will end on the bank of the Oka.`,
     },
     [LOCALES.RU]: {
         home: "главная",
@@ -62,5 +67,10 @@ export const messages = {
         etnosDOP: `Операторы: Леонид Ким, Зарина Кодзаева, Евгений Родин, Виталий Зайцев, Ксения Сельвиан, Андрей Майка.`,
         etnosSummary: `Описание проекта: Серия документальных фильмов, снятых для Федерального агентства по делам национальностей. Мы путешествовали в разные регионы России, чтобы изучить и зафиксировать жизнь современных представителей малочисленных народов, таких как Сето, Бесермяне, Абазины, Буряты, Мокша и Эрзя.`,
         etnosTrailer: `Ссылки на фильмы будут отправлены по запросу.`,
+        vyksaTitle: `Иммерсивный спектакль «Карамзин. Театр в деревне» в рамках фестиваля Vyksa Fest`,
+        vyksaTime: `Продолжительность спектакля до 60 минут, 2021 год, Выкса`,
+        vyksaDirector: `Режиссер: Алина Насибуллина`,
+        vyksaProd: `Генеральный продюсер: Федор Павлов-Андреевич`,
+        vyksaSummary: `Описание проекта: В 1990 году Людмила Петрушевская написала верлибром роман «Карамзин. Деревенский дневник» в деревне Дубцы (16 км от Выксы). Спустя 30 лет мы поставили спектакль, в котором принимали участие дети из реабилитационного центра «Пеликан», а так же директор и сотрудники ДК Досчатое (здание 1953 года постройки с тех пор не реставрировалось). Этот спектакль - путешествие в детство в деревне, дети из сложных семей ведут зрителя за руку, играют в догонялки и читают «Сказку про электричество» так, что у всех наблюдателей по телу бежит тот самый ток. Спектакль шел в рамках фестиваля и повторялся в 2022 году.`,
     },
 };
