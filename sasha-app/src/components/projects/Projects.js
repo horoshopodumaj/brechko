@@ -96,7 +96,7 @@ export default function Projects() {
                             sx={{
                                 pb: "20px",
                                 display: "flex",
-                                gap: { xs: "10px", sm: "20px" },
+                                gap: { xs: "20px", sm: "20px" },
                                 justifyContent: "center",
                                 flexDirection: { xs: "column", sm: "row" },
                                 alignItems: "center",
@@ -173,7 +173,7 @@ export default function Projects() {
                                 sx={{
                                     pb: "20px",
                                     display: "flex",
-                                    gap: { xs: "10px", sm: "20px" },
+                                    gap: { xs: "20px", sm: "20px" },
                                     justifyContent: "center",
                                     flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
@@ -250,7 +250,7 @@ export default function Projects() {
                                 sx={{
                                     pb: "20px",
                                     display: "flex",
-                                    gap: { xs: "10px", sm: "20px" },
+                                    gap: { xs: "20px", sm: "20px" },
                                     justifyContent: "center",
                                     flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
@@ -327,7 +327,7 @@ export default function Projects() {
                                 sx={{
                                     pb: "20px",
                                     display: "flex",
-                                    gap: { xs: "10px", sm: "20px" },
+                                    gap: { xs: "20px", sm: "20px" },
                                     justifyContent: "center",
                                     flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
@@ -404,7 +404,7 @@ export default function Projects() {
                                 sx={{
                                     pb: "20px",
                                     display: "flex",
-                                    gap: { xs: "10px", sm: "20px" },
+                                    gap: { xs: "20px", sm: "20px" },
                                     justifyContent: "center",
                                     flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
@@ -528,7 +528,7 @@ export default function Projects() {
                                 sx={{
                                     pb: "20px",
                                     display: "flex",
-                                    gap: { xs: "10px", sm: "20px" },
+                                    gap: { xs: "20px", sm: "20px" },
                                     justifyContent: "center",
                                     flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
@@ -604,7 +604,7 @@ export default function Projects() {
                                 sx={{
                                     pb: "20px",
                                     display: "flex",
-                                    gap: { xs: "10px", sm: "20px" },
+                                    gap: { xs: "20px", sm: "20px" },
                                     justifyContent: "center",
                                     flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
