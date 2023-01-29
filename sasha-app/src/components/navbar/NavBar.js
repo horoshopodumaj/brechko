@@ -40,7 +40,7 @@ function NavBar(props) {
             <Divider />
             <List>
                 {navItems.map((item) => (
-                    <a href={`#${item}`} style={{ color: "black" }}>
+                    <a href={`#${item}`} style={{ color: "black" }} key={item}>
                         <ListItem key={item} disablePadding>
                             <ListItemButton sx={{ textAlign: "center" }}>
                                 <ListItemText
@@ -86,7 +86,7 @@ function NavBar(props) {
                     </Link>
                     <Box sx={{ display: { xs: "none", sm: "block" } }}>
                         {navItems.map((item) => (
-                            <a href={`#${item}`}>
+                            <a href={`#${item}`} key={item}>
                                 <Button key={item} sx={{ color: "#fff" }}>
                                     <FormattedMessage id={`${item}`} />
                                 </Button>

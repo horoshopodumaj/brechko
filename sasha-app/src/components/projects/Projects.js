@@ -6,6 +6,10 @@ import mirror1 from "../../assets/img/mirror1.jpeg";
 import mirror2 from "../../assets/img/mirror2.jpeg";
 import mirror3 from "../../assets/img/mirror3.jpeg";
 import mirror4 from "../../assets/img/mirror4.jpeg";
+import etnos1 from "../../assets/img/etnos1.jpg";
+import etnos2 from "../../assets/img/etnos2.jpg";
+import etnos3 from "../../assets/img/etnos3.jpg";
+import etnos4 from "../../assets/img/etnos4.jpg";
 
 export default function Projects() {
     return (
@@ -21,7 +25,9 @@ export default function Projects() {
                     }}>
                     <FormattedMessage id="projects" />
                 </Typography>
-                <Grid container sx={{ justifyContent: "center", alignItems: "center" }}>
+                <Grid
+                    container
+                    sx={{ justifyContent: "center", alignItems: "center", paddingBottom: "50px" }}>
                     <Grid item xs={12} md={5} pr="15px">
                         <Typography variant="h5" sx={{ pb: "5px" }}>
                             <FormattedMessage id="mirrorTitle" />
@@ -94,6 +100,75 @@ export default function Projects() {
                             />
                             <img
                                 src={mirror4}
+                                alt="mirror4"
+                                style={{ maxWidth: "230px", maxHeight: "330px" }}
+                            />
+                        </Box>
+                    </Grid>
+                </Grid>
+                <Grid
+                    container
+                    sx={{ justifyContent: "center", alignItems: "center", paddingBottom: "50px" }}>
+                    <Grid item xs={12} md={5} pr="15px">
+                        <Typography variant="h5" sx={{ pb: "5px" }}>
+                            <FormattedMessage id="etnosTitle" />
+                        </Typography>
+                        <Typography sx={{ pb: "20px" }}>
+                            <FormattedMessage id="etnosTime" />
+                        </Typography>
+                        <Typography sx={{ pb: "5px" }}>
+                            <FormattedMessage id="etnosDirector" />
+                        </Typography>
+                        <Typography sx={{ pb: "25px" }}>
+                            <FormattedMessage id="etnosProd" />
+                        </Typography>
+                        <Typography sx={{ pb: "25px" }}>
+                            <FormattedMessage id="etnosDOP" />
+                        </Typography>
+                        <Typography sx={{ pb: "25px", textAlign: "justify" }}>
+                            <FormattedMessage id="etnosSummary" />
+                        </Typography>
+                        <Typography sx={{ pb: "15px", textAlign: "justify" }}>
+                            <FormattedMessage id="etnosTrailer" />
+                        </Typography>
+                    </Grid>
+                    <Grid item xs={12} md={7} sx={{ textAlign: "center" }}>
+                        <Box
+                            sx={{
+                                pb: "20px",
+                                display: "flex",
+                                gap: { xs: "10px", sm: "20px" },
+                                justifyContent: "center",
+                                flexDirection: { xs: "column", sm: "row" },
+                                alignItems: "center",
+                            }}>
+                            <img
+                                src={etnos1}
+                                alt="mirror1"
+                                style={{ maxWidth: "230px", maxHeight: "330px" }}
+                            />
+                            <img
+                                src={etnos2}
+                                alt="mirror2"
+                                style={{ maxWidth: "230px", maxHeight: "330px" }}
+                            />
+                        </Box>
+                        <Box
+                            sx={{
+                                pb: "20px",
+                                display: "flex",
+                                gap: "20px",
+                                justifyContent: "center",
+                                flexDirection: { xs: "column", sm: "row" },
+                                alignItems: "center",
+                            }}>
+                            <img
+                                src={etnos3}
+                                alt="mirror3"
+                                style={{ maxWidth: "230px", maxHeight: "330px" }}
+                            />
+                            <img
+                                src={etnos4}
                                 alt="mirror4"
                                 style={{ maxWidth: "230px", maxHeight: "330px" }}
                             />
