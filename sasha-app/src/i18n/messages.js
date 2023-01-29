@@ -57,6 +57,12 @@ export const messages = {
         alonePart1: "Part 1",
         alonePart2: "Part 2",
         alonePart3: "Part 3",
+        vkLink: `Link`,
+        vkTitle: `"Considerable business" for VK Business`,
+        vkTime: `2021-2022`,
+        vkDOP: `DOP: Andrey Shvydkiy`,
+        vkSummary: `Summary: A series of documentary videos telling about young, ambitious, talented entrepreneurs who are developing socially oriented business in Russia.`,
+        vkHeroes: `Heroes: You talk, 99 Recycle. Zero Waste, Exoatlet, Baby Sensory, "String bag gives hope", "Simple things" and others.`,
     },
     [LOCALES.RU]: {
         home: "главная",
@@ -125,5 +131,18 @@ export const messages = {
         alonePart1: "Часть 1",
         alonePart2: "Часть 2",
         alonePart3: "Часть 3",
+        vkLink: `Ссылка`,
+        vkTitle: `«Немалый бизнес» для VK Business`,
+        vkTime: `2021-2022`,
+        vkDOP: `Оператор: Андрей Швыдкий`,
+        vkSummary: `Описание проекта:
+        Серия документальных роликов,
+        рассказывающих о молодых, амбициозных,
+        талантливых предпринимателей, которые
+        развивают социально-направленный бизнес в
+        России.`,
+        vkHeroes: `Герои: Youtalk, 99Recycle, ZeroWaste, Exoatlet,
+        Baby Sensory, «Авоська дарит надежду»,
+        «Простые вещи» и другие`,
     },
 };
