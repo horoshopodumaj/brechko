@@ -142,8 +142,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: { xs: "90px", md: "200px", sm: "100px" },
-                            paddingTop: { xs: "90px", md: "250px", sm: "100px" },
+                            paddingBottom: { xs: "90px", md: "50px", sm: "50px" },
+                            paddingTop: { xs: "90px", md: "50px", sm: "50px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -175,19 +175,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: { xs: "10px", sm: "20px" },
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={etnos1}
-                                    alt="mirror1"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={etnos2}
-                                    alt="mirror2"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={etnos1} alt="mirror1" />
+                                <img className="image" src={etnos2} alt="mirror2" />
                             </Box>
                             <Box
                                 sx={{
@@ -195,19 +187,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: "20px",
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={etnos3}
-                                    alt="mirror3"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={etnos4}
-                                    alt="mirror4"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={etnos3} alt="mirror3" />
+                                <img className="image" src={etnos4} alt="mirror4" />
                             </Box>
                         </Grid>
                     </Grid>
@@ -220,8 +204,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: { xs: "90px", md: "150px", sm: "100px" },
-                            paddingTop: { xs: "90px", md: "150px", sm: "100px" },
+                            paddingBottom: { xs: "90px", md: "50px", sm: "50px" },
+                            paddingTop: { xs: "90px", md: "50px", sm: "50px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -268,19 +252,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: { xs: "10px", sm: "20px" },
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={vyksa1}
-                                    alt="mirror1"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={vyksa2}
-                                    alt="mirror2"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img src={vyksa1} alt="mirror1" className="image" />
+                                <img className="image" src={vyksa2} alt="mirror2" />
                             </Box>
                             <Box
                                 sx={{
@@ -288,19 +264,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: "20px",
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={vyksa3}
-                                    alt="mirror3"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={vyksa4}
-                                    alt="mirror4"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={vyksa3} alt="mirror3" />
+                                <img className="image" src={vyksa4} alt="mirror4" />
                             </Box>
                         </Grid>
                     </Grid>
@@ -313,8 +281,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: { xs: "90px", md: "200px", sm: "100px" },
-                            paddingTop: { xs: "90px", md: "250px", sm: "100px" },
+                            paddingBottom: { xs: "90px", md: "100px", sm: "100px" },
+                            paddingTop: { xs: "90px", md: "100px", sm: "100px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -361,19 +329,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: { xs: "10px", sm: "20px" },
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={aigel1}
-                                    alt="mirror1"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={aigel2}
-                                    alt="mirror2"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={aigel1} alt="mirror1" />
+                                <img className="image" src={aigel2} alt="mirror2" />
                             </Box>
                             <Box
                                 sx={{
@@ -381,19 +341,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: "20px",
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={aigel3}
-                                    alt="mirror3"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={aigel4}
-                                    alt="mirror4"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={aigel3} alt="mirror3" />
+                                <img className="image" src={aigel4} alt="mirror4" />
                             </Box>
                         </Grid>
                     </Grid>
@@ -406,8 +358,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: { xs: "90px", md: "250px", sm: "100px" },
-                            paddingTop: { xs: "90px", md: "270px", sm: "100px" },
+                            paddingBottom: { xs: "50px", md: "50px", sm: "50px" },
+                            paddingTop: { xs: "50px", md: "50px", sm: "50px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -454,19 +406,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: { xs: "10px", sm: "20px" },
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={vk1}
-                                    alt="mirror1"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={vk2}
-                                    alt="mirror2"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={vk1} alt="mirror1" />
+                                <img className="image" src={vk2} alt="mirror2" />
                             </Box>
                             <Box
                                 sx={{
@@ -474,19 +418,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: "20px",
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={vk3}
-                                    alt="mirror3"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={vk4}
-                                    alt="mirror3"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={vk3} alt="mirror3" />
+                                <img className="image" src={vk4} alt="mirror3" />
                             </Box>
                         </Grid>
                     </Grid>
@@ -499,8 +435,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: { xs: "90px", md: "270px", sm: "100px" },
-                            paddingTop: { xs: "90px", md: "290px", sm: "100px" },
+                            paddingBottom: { xs: "90px", md: "170px", sm: "170px" },
+                            paddingTop: { xs: "90px", md: "170px", sm: "170px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -594,19 +530,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: { xs: "10px", sm: "20px" },
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={alone1}
-                                    alt="mirror1"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={alone2}
-                                    alt="mirror2"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={alone1} alt="mirror1" />
+                                <img className="image" src={alone2} alt="mirror2" />
                             </Box>
                             <Box
                                 sx={{
@@ -614,14 +542,10 @@ export default function Projects() {
                                     display: "flex",
                                     gap: "20px",
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={alone3}
-                                    alt="mirror3"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={alone3} alt="mirror3" />
                             </Box>
                         </Grid>
                     </Grid>
@@ -634,8 +558,8 @@ export default function Projects() {
                         sx={{
                             justifyContent: "center",
                             alignItems: "center",
-                            paddingBottom: { xs: "90px", md: "270px", sm: "100px" },
-                            paddingTop: { xs: "90px", md: "290px", sm: "100px" },
+                            paddingBottom: { xs: "90px", md: "70px", sm: "70px" },
+                            paddingTop: { xs: "90px", md: "70px", sm: "70px" },
                         }}>
                         <Grid item xs={12} md={5} sx={{ paddingRight: { xs: "0", md: "15px" } }}>
                             <Typography variant="h5" sx={{ pb: "5px" }}>
@@ -682,19 +606,11 @@ export default function Projects() {
                                     display: "flex",
                                     gap: { xs: "10px", sm: "20px" },
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={hus1}
-                                    alt="mirror1"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
-                                <img
-                                    src={hus2}
-                                    alt="mirror2"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={hus1} alt="mirror1" />
+                                <img className="image" src={hus2} alt="mirror2" />
                             </Box>
                             <Box
                                 sx={{
@@ -702,14 +618,10 @@ export default function Projects() {
                                     display: "flex",
                                     gap: "20px",
                                     justifyContent: "center",
-                                    flexDirection: { xs: "column", sm: "row" },
+                                    flexDirection: { xs: "column", sm: "column" },
                                     alignItems: "center",
                                 }}>
-                                <img
-                                    src={hus3}
-                                    alt="mirror3"
-                                    style={{ maxWidth: "230px", maxHeight: "330px" }}
-                                />
+                                <img className="image" src={hus3} alt="mirror3" />
                             </Box>
                         </Grid>
                     </Grid>

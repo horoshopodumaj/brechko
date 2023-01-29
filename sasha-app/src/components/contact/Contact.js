@@ -21,7 +21,7 @@ export default function Contact() {
                     variant="h4"
                     sx={{
                         textAlign: "center",
-                        paddingBottom: { xs: "380px", sm: "460px", md: "560px" },
+                        paddingBottom: { xs: "410px", sm: "460px", md: "520px" },
                     }}
                     className="email">
                     <a href="mailto:sasha.brecha@gmail.com" style={{ color: "white" }}>

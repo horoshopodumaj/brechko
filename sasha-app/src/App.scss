@@ -108,3 +108,10 @@
         color: black;
     }
 }
+
+.image {
+    max-height: 330px;
+    @media screen and (max-width: 400px) {
+        width: 100%;
+    }
+}
