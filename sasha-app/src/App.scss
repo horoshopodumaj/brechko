@@ -26,8 +26,8 @@
 
 .home {
     margin-top: 64px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 250px;
+    padding-bottom: 200px;
     background-color: black;
     @media screen and (max-width: 599px) {
         margin-top: 56px;
@@ -42,4 +42,9 @@
 .wpapper {
     background-color: rgba(0, 0, 0, 0.4);
     padding: 100px 0 400px;
+}
+
+.projects {
+    color: white;
+    background-color: black;
 }

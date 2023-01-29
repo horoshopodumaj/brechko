@@ -8,6 +8,7 @@ import GlobalContext from "./contexts/GlobalContext";
 import Footer from "./components/footer/Footer";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
 
 function App() {
     const [currentLocale, setCurrentLocale] = useState(
@@ -31,6 +32,7 @@ function App() {
                     <div className="app__box">
                         <Home />
                         <About />
+                        <Projects />
                     </div>
                     <Footer />
                 </div>
